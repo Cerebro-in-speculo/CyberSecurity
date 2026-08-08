@@ -15,6 +15,7 @@ class BaseExploit(ABC):
     def print_info(self):
         pass
 
+
 class MyAge(BaseExploit):
     def __init__(self, name, sername, age):
         super().__init__(name, sername)
