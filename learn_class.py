@@ -15,7 +15,6 @@ class BaseExploit(ABC):
     def print_info(self):
         pass
 
-
 class MyAge(BaseExploit):
     def __init__(self, name, sername, age):
         super().__init__(name, sername)
@@ -34,4 +33,3 @@ class MyAge(BaseExploit):
 
 p2 = MyAge('Roman', 'Ledovskih',47)
 p2.print_info()
-
