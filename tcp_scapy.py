@@ -6,7 +6,6 @@ from scapy.all import *
 # eth = Ether(src ="aa:bb:cc:dd:ee:ff", dst="ff:ff:ff:ff:ff:ff" , type=0x0800) / pkt
 # print(eth.show())
 
-<<<<<<< HEAD
 # tcp_syn = TCP(sport=12345, dport=443, flags="S", seq=1000, window=65535)
 # pkt = IP(dst="example.com") / tcp_syn
 # print(pkt.show())
@@ -24,11 +23,9 @@ if answered:
 
     print("\n--- Подробно о первом ответе ---")
     answered[0][1].show()
-=======
-tcp_syn = TCP(sport=12345, dport=443, flags="S", seq=1000, window=65535)
-pkt = IP(dst="example.com") / tcp_syn
-# print(pkt.show())
-ls(pkt)
 
-# send(IP(dst="8.8.8.8")/ICMP())
->>>>>>> c6d1710da94bca873e2c4bab5323ba9183f42897
+# tcp_syn = TCP(sport=12345, dport=443, flags="S", seq=1000, window=65535)
+# pkt = IP(dst="example.com") / tcp_syn
+# # print(pkt.show())
+# ls(pkt)
+
